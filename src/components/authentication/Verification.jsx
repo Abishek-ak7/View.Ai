@@ -3,8 +3,8 @@ import ViewAiLogo from "../ViewAiLogo";
 import Google from "../../assets/images/Google.png";
 
 export default function Verification() {
-    return (
-        <div className="Soln">
+    return (        <div className='flex flex-col justify-center items-center'>
+        <div className="Soln 2xl:container">
             <ViewAiLogo />
             <div className=" h-screen flex flex-col justify-center items-center w-full">
                 <div className="border-2 text-white bg-violet-950/10 backdrop-blur-sm border-gray-400 md:w-1/3 rounded-2xl p-4 flex flex-col">
@@ -29,5 +29,7 @@ export default function Verification() {
                 </div>
             </div>
         </div>
+        </div>
+        
     );
 }
